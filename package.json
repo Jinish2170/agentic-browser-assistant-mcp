@@ -1,0 +1,39 @@
+{
+  "name": "jev-browser",
+  "version": "0.4.1",
+  "private": true,
+  "type": "module",
+  "description": "Chrome browser agent with Jev decision routing, configurable LLMs, and MCP",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "build": "node scripts/build.mjs",
+    "bridge": "node server/main.mjs",
+    "mcp": "node server/mcp.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "check": "node scripts/check.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "call": "node scripts/call.mjs",
+    "session": "node scripts/session.mjs",
+    "benchmark": "npm run build && node scripts/benchmark.mjs",
+    "evaluate": "npm run build && node scripts/evaluate.mjs",
+    "package": "npm run build && python3 scripts/package.py",
+    "preview:ui": "npm run build && node scripts/preview.mjs",
+    "benchmark:provider": "node scripts/benchmark-provider.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "ws": "^8.18.3",
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.25.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright": "^1.56.0",
+    "prettier": "^3.9.9"
+  }
+}

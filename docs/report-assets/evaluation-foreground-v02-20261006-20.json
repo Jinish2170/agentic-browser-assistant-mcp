@@ -1,0 +1,216 @@
+{
+  "measuredAt": "2026-10-05T14:07:52.534Z",
+  "seed": 20261006,
+  "rounds": 20,
+  "activeTabs": true,
+  "type": "browser-contract evaluation with deterministic expert policies; no model benchmark",
+  "cases": [
+    {
+      "name": "form-0",
+      "passed": true,
+      "durationMs": 478
+    },
+    {
+      "name": "form-1",
+      "passed": true,
+      "durationMs": 419
+    },
+    {
+      "name": "form-2",
+      "passed": true,
+      "durationMs": 414
+    },
+    {
+      "name": "form-3",
+      "passed": true,
+      "durationMs": 436
+    },
+    {
+      "name": "form-4",
+      "passed": true,
+      "durationMs": 437
+    },
+    {
+      "name": "form-5",
+      "passed": true,
+      "durationMs": 435
+    },
+    {
+      "name": "form-6",
+      "passed": true,
+      "durationMs": 435
+    },
+    {
+      "name": "form-7",
+      "passed": true,
+      "durationMs": 435
+    },
+    {
+      "name": "form-8",
+      "passed": true,
+      "durationMs": 432
+    },
+    {
+      "name": "form-9",
+      "passed": true,
+      "durationMs": 458
+    },
+    {
+      "name": "form-10",
+      "passed": true,
+      "durationMs": 459
+    },
+    {
+      "name": "form-11",
+      "passed": true,
+      "durationMs": 662
+    },
+    {
+      "name": "form-12",
+      "passed": true,
+      "durationMs": 460
+    },
+    {
+      "name": "form-13",
+      "passed": true,
+      "durationMs": 497
+    },
+    {
+      "name": "form-14",
+      "passed": true,
+      "durationMs": 452
+    },
+    {
+      "name": "form-15",
+      "passed": true,
+      "durationMs": 466
+    },
+    {
+      "name": "form-16",
+      "passed": true,
+      "durationMs": 430
+    },
+    {
+      "name": "form-17",
+      "passed": true,
+      "durationMs": 453
+    },
+    {
+      "name": "form-18",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "form-19",
+      "passed": true,
+      "durationMs": 436
+    },
+    {
+      "name": "structured-table-and-shadow-extraction",
+      "passed": true,
+      "durationMs": 122
+    },
+    {
+      "name": "six-tab-concurrent-observation",
+      "passed": true,
+      "durationMs": 489
+    },
+    {
+      "name": "popup-discovery-and-explicit-group-ownership",
+      "passed": true,
+      "durationMs": 198
+    }
+  ],
+  "modelCalls": 0,
+  "metrics": {
+    "operationTimings": {
+      "browser_open": {
+        "samples": 28,
+        "medianMs": 40.48,
+        "p95Ms": 48.8
+      },
+      "browser_wait": {
+        "samples": 29,
+        "medianMs": 14.77,
+        "p95Ms": 18.98
+      },
+      "browser_snapshot": {
+        "samples": 20,
+        "medianMs": 13.84,
+        "p95Ms": 15.32
+      },
+      "browser_fill_form": {
+        "samples": 20,
+        "medianMs": 85.12,
+        "p95Ms": 100.37
+      },
+      "browser_step.actionMs": {
+        "samples": 20,
+        "medianMs": 18.9,
+        "p95Ms": 29
+      },
+      "browser_step.waitMs": {
+        "samples": 20,
+        "medianMs": 208.8,
+        "p95Ms": 213.7
+      },
+      "browser_step.observationMs": {
+        "samples": 20,
+        "medianMs": 6,
+        "p95Ms": 6.9
+      },
+      "browser_step": {
+        "samples": 20,
+        "medianMs": 240.81,
+        "p95Ms": 285.31
+      },
+      "browser_extract": {
+        "samples": 43,
+        "medianMs": 9.63,
+        "p95Ms": 12.17
+      },
+      "browser_tab": {
+        "samples": 29,
+        "medianMs": 24.31,
+        "p95Ms": 31.51
+      },
+      "browser_batch": {
+        "samples": 1,
+        "medianMs": 35.46,
+        "p95Ms": 35.46
+      },
+      "browser_groups": {
+        "samples": 1,
+        "medianMs": 4.86,
+        "p95Ms": 4.86
+      },
+      "browser_click": {
+        "samples": 1,
+        "medianMs": 66.3,
+        "p95Ms": 66.3
+      },
+      "browser_tabs": {
+        "samples": 2,
+        "medianMs": 7.14,
+        "p95Ms": 7.14
+      },
+      "browser_group_tabs": {
+        "samples": 1,
+        "medianMs": 5.56,
+        "p95Ms": 5.56
+      }
+    },
+    "coreToolDefinitions": {
+      "count": 23,
+      "bytes": 21783
+    },
+    "fullToolDefinitions": {
+      "count": 37,
+      "bytes": 30237
+    }
+  },
+  "browser": "153.0.8010.12",
+  "node": "v24.19.0",
+  "passed": 23,
+  "failed": 0
+}

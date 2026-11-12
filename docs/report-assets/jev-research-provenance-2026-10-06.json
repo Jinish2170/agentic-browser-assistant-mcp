@@ -1,0 +1,157 @@
+{
+  "reviewDate": "2026-10-06",
+  "timezone": "Asia/Kolkata",
+  "projectVersion": "0.3.0",
+  "scope": "Primary public sources and read-only local code audit; no live model calls or personal browser actions",
+  "retrievedDocuments": [
+    {
+      "url": "https://docs.typesafe.ai/agent-skill.md",
+      "bytes": 5911,
+      "sha256": "58150a9cecb9b9727c6039b14e0dfea7f2e3cb9be6ee14611b7df9cc8e0c94c7"
+    },
+    {
+      "url": "https://docs.typesafe.ai/api.md",
+      "bytes": 11344,
+      "sha256": "6b760275f89341fe15cff80c28aacae94d7d0c0c99afcd987ec0bca680b5713a"
+    },
+    {
+      "url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one.md",
+      "bytes": 41034,
+      "sha256": "9f5a20ac39383695d554bf812b365ed4b70622b8e5ac10484dce290469c68972"
+    },
+    {
+      "url": "https://docs.typesafe.ai/concepts/state.md",
+      "bytes": 3669,
+      "sha256": "8ed5a4e719cf2414759fed92463c203855f1fb4bf02b685746cd4858481375a5"
+    },
+    {
+      "url": "https://docs.typesafe.ai/confidence.md",
+      "bytes": 24090,
+      "sha256": "5c325ec0c0b69e78129406ca7c5d3aef113bce365abd34985b8674cd278c81be"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/date_extraction_cookbook.md",
+      "bytes": 19957,
+      "sha256": "28565d596103548298c3a26f3dce11c1d2e9e21e59608e84044cfb7134914cca"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/function_calling.md",
+      "bytes": 18973,
+      "sha256": "c03cd58ac34dca4e282bfda4b21df943f27c0d652d49ad6b8bac1afa47f8856c"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/pre_parsed_value_extraction_cookbook.md",
+      "bytes": 12655,
+      "sha256": "a5242dbf4df6dcae3bbf374047026714c1801cdc126b39bc4bca99212dd1a1c9"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/sde_cascade.md",
+      "bytes": 32780,
+      "sha256": "90ab0294cb0d83b0ece3343edf11c6d492ce0236f4e21b434bbdbcb7c5500b74"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/skill_suggestion.md",
+      "bytes": 39391,
+      "sha256": "c59bf591db3d45e20b90a93a4526775e5188c479c6366b9a4267cb37ab51fc90"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/danielnc/jev-browse/main/docs/architecture.md",
+      "bytes": 33034,
+      "sha256": "47233d0f54a2f346b8b6963d5f1952a51e167a5bf6287e6b8485e6619ac572f5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/danielnc/jev-browse/main/docs/benchmark.md",
+      "bytes": 6893,
+      "sha256": "8fa78e9f96f745d94230a31a7f296f19283b6b5712304fe379439f5e1189eabe"
+    },
+    {
+      "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+      "bytes": 9346,
+      "sha256": "5d471be7c8d2a359a81979b7bcf2c2fab536a198d4e50155c4233380d5c03986"
+    },
+    {
+      "url": "https://docs.typesafe.ai/models.md",
+      "bytes": 6684,
+      "sha256": "15351adaab85874b5f1a942fc2fdf3c7b3ecadcc936d580793d734855a0038f3"
+    },
+    {
+      "url": "https://docs.typesafe.ai/patterns/confidence-routing.md",
+      "bytes": 12281,
+      "sha256": "3d156395f69856e2cdadb9405a23fa3f08b5ecf4274c3cd81d844d8bbe860b0e"
+    },
+    {
+      "url": "https://docs.typesafe.ai/patterns/fan-out.md",
+      "bytes": 14080,
+      "sha256": "f78bd972e2f24338c03c99f2ab4c2d1c46666e27c085ee703b661a96b6da7543"
+    },
+    {
+      "url": "https://docs.typesafe.ai/sdk/javascript.md",
+      "bytes": 1415,
+      "sha256": "269059683486938fd93c9ef675ed93d7b38c5ce9151b0baa892837bb79e55cc2"
+    },
+    {
+      "url": "https://docs.typesafe.ai/sdk/javascript/api/interfaces/ModelCard.md",
+      "bytes": 654,
+      "sha256": "8a7bd6545efb68fda0371cf747a038ce261ebc5f44e2bae139cb2274bd3da997"
+    },
+    {
+      "url": "https://docs.typesafe.ai/sdk/javascript/api/interfaces/RequestOptions.md",
+      "bytes": 1032,
+      "sha256": "48b8d64541f9baf8b266c324df48a50ee622ec8f0cd1f7c4619cb35f29c07f88"
+    },
+    {
+      "url": "https://docs.typesafe.ai/sdk/javascript/api/interfaces/Usage.md",
+      "bytes": 629,
+      "sha256": "6c31113ae0000cbfd34b4220a8d4333c3941f654549981d89a9335444f2c31d6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/typesafe-ai/typesafe-sdk-js/v0.6.0/src/client.ts",
+      "bytes": 17510,
+      "sha256": "6330c856b4735a4b2b900b259a773613cf09db8b09938d6b74993313f14ba10e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/typesafe-ai/typesafe-sdk-js/v0.6.0/src/types.ts",
+      "bytes": 9420,
+      "sha256": "557731c541ce740191a16cf67f4947c7acc9b77e87e476c0d967da07ec4c2b53"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/main/jev_ultrafast/agent.py",
+      "bytes": 7880,
+      "sha256": "aaf8b271cb0ee6643fe7beb525328ab80de8568c7ac044d02b9c6721161e7c8b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/main/jev_ultrafast/model.py",
+      "bytes": 8469,
+      "sha256": "a85ada8458d23642c5c8a4095acf0565e6268f81dcda26f6308942b653e9c9f3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/main/docs/performance.md",
+      "bytes": 6701,
+      "sha256": "266a6d6203bd834de8dddfb8f23968d7d9d6bf7fec1655c34c1ddaccdd857d15"
+    }
+  ],
+  "localSourceHashes": {
+    "server/jev.mjs": "0dd230cd76531e291948abfb691944d117ba79aa91bc3a1511b838bdf0aa95f1",
+    "server/agent.mjs": "9937df339a247e3ad81c2294296b3e32f1cf4b38deeadc2ca340f164a68ed71b",
+    "server/http-client.mjs": "50be46edf10879b260b054785531dc860c402bca167c033d5beb131fab9aa456",
+    "server/bridge.mjs": "e1be7047c3f4ab694c01f8dae1d135922a1facc1b012d22835e5d725d5fcdc74",
+    "server/mcp.mjs": "55493f33d77792d3abcbc1175d0476ca174eecec09ca04ac72be5c91a0e6671b",
+    "server/config.mjs": "9ee852806db8b272578145887c623375b55cfb37ce34030f8a4e409170a4d818",
+    "docs/ARCHITECTURE.md": "45c6ad705ef33b8420213e9332181f4f6b99b231edcbb7bf8d490e3c6f8422ab",
+    "docs/VALIDATION.md": "da174088ef073f9935a0b88325bb931617a6f6f9f1441674a359c7209c568268"
+  },
+  "additionalBrowserReadSources": [
+    "https://arxiv.org/abs/2609.37647",
+    "https://arxiv.org/abs/2610.02267",
+    "https://github.com/michaelswissa/jevry",
+    "https://github.com/ServiceNow/webarena-verified",
+    "https://developer.chrome.com/docs/ai/webmcp/",
+    "https://developer.chrome.com/docs/agents/security",
+    "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+  ],
+  "notes": [
+    "Hashes identify the exact retrieved bytes, not a guarantee of source correctness.",
+    "External source code was read for research and was not installed, executed or included in public report assets.",
+    "Unsuccessful retrievals are excluded; mutable repository branches may change after this review."
+  ]
+}

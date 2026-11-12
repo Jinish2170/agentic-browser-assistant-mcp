@@ -1,0 +1,975 @@
+{
+  "reviewDate": "2026-10-06",
+  "measuredAt": "2026-10-06T04:36:01.169Z",
+  "cases": [
+    {
+      "index": 0,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 931.55,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 789.36,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 789.36,
+        "toolMs": 117.66999999999999,
+        "totalMs": 913.84
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:02.959Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.99,
+          "topProbability": 1,
+          "margin": 1,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 789.35,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274973,
+          "state": "returned",
+          "at": "2026-10-06T04:36:02.109Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:02.156Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274973,
+          "state": "returned",
+          "at": "2026-10-06T04:36:02.959Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:02.993Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 0",
+          "plan": "basic",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274973,
+        "url": "http://127.0.0.1:34869/0",
+        "at": "2026-10-06T04:36:03.007Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 543.26,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 392.09000000000003,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 392.09000000000003,
+        "toolMs": 96.4,
+        "totalMs": 491.63
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:03.559Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.99,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 392.08,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274975,
+          "state": "returned",
+          "at": "2026-10-06T04:36:03.115Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:03.155Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274975,
+          "state": "returned",
+          "at": "2026-10-06T04:36:03.559Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:03.582Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 1",
+          "plan": "pro",
+          "check": false,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274975,
+        "url": "http://127.0.0.1:34869/1",
+        "at": "2026-10-06T04:36:03.591Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 602.03,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 458.4100000000001,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 458.4100000000001,
+        "toolMs": 114.42,
+        "totalMs": 579.68
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:04.262Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.99,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 458.4,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274977,
+          "state": "returned",
+          "at": "2026-10-06T04:36:03.735Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:03.790Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274977,
+          "state": "returned",
+          "at": "2026-10-06T04:36:04.262Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:04.287Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 2",
+          "plan": "basic",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274977,
+        "url": "http://127.0.0.1:34869/2",
+        "at": "2026-10-06T04:36:04.299Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 538.33,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 385.6700000000001,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 385.6700000000001,
+        "toolMs": 110.61,
+        "totalMs": 499.64
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:04.865Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.99,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 385.66,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274979,
+          "state": "returned",
+          "at": "2026-10-06T04:36:04.421Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:04.466Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274979,
+          "state": "returned",
+          "at": "2026-10-06T04:36:04.865Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:04.892Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 3",
+          "plan": "pro",
+          "check": false,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274979,
+        "url": "http://127.0.0.1:34869/3",
+        "at": "2026-10-06T04:36:04.904Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 543.09,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 382.1700000000001,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 382.1700000000001,
+        "toolMs": 124.64,
+        "totalMs": 509.37
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:05.504Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.99,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 382.16,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274981,
+          "state": "returned",
+          "at": "2026-10-06T04:36:05.047Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:05.107Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274981,
+          "state": "returned",
+          "at": "2026-10-06T04:36:05.504Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:05.529Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 4",
+          "plan": "basic",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274981,
+        "url": "http://127.0.0.1:34869/4",
+        "at": "2026-10-06T04:36:05.540Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 702.86,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 552.0099999999998,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 552.0099999999998,
+        "toolMs": 114.15999999999998,
+        "totalMs": 668.98
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:06.282Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.98,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 552,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274983,
+          "state": "returned",
+          "at": "2026-10-06T04:36:05.667Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:05.716Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274983,
+          "state": "returned",
+          "at": "2026-10-06T04:36:06.282Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:06.308Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 5",
+          "plan": "pro",
+          "check": false,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274983,
+        "url": "http://127.0.0.1:34869/5",
+        "at": "2026-10-06T04:36:06.320Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 545.77,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 391.47000000000025,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 391.47000000000025,
+        "toolMs": 133.9,
+        "totalMs": 528.12
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:06.921Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.99,
+          "topProbability": 1,
+          "margin": 1,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 391.46,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274985,
+          "state": "returned",
+          "at": "2026-10-06T04:36:06.450Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:06.514Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274985,
+          "state": "returned",
+          "at": "2026-10-06T04:36:06.921Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:06.947Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 6",
+          "plan": "basic",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274985,
+        "url": "http://127.0.0.1:34869/6",
+        "at": "2026-10-06T04:36:06.961Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 540.85,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 699,
+        "outputTokens": 33,
+        "elapsedMs": 351.3600000000001,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029358
+      },
+      "timings": {
+        "modelMs": 351.3600000000001,
+        "toolMs": 120.57,
+        "totalMs": 478.43
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:07.490Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.98,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 351.35,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274987,
+          "state": "returned",
+          "at": "2026-10-06T04:36:07.079Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:07.123Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274987,
+          "state": "returned",
+          "at": "2026-10-06T04:36:07.490Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:07.525Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 7",
+          "plan": "pro",
+          "check": false,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274987,
+        "url": "http://127.0.0.1:34869/7",
+        "at": "2026-10-06T04:36:07.538Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "family": "duplicate-row",
+      "passed": true,
+      "elapsedMs": 537.96,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 643,
+        "outputTokens": 41,
+        "elapsedMs": 414.02,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000027006
+      },
+      "timings": {
+        "modelMs": 414.02,
+        "toolMs": 64.75,
+        "totalMs": 480.36
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:08.130Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 1,
+          "topProbability": 1,
+          "margin": 1,
+          "candidates": 2,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 414.01,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_step",
+          "tabId": 616274989,
+          "state": "returned",
+          "at": "2026-10-06T04:36:08.130Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:08.160Z"
+        }
+      ],
+      "receipts": [
+        {
+          "record": "aurora",
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274989,
+        "url": "http://127.0.0.1:34869/8",
+        "at": "2026-10-06T04:36:08.174Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "family": "duplicate-row",
+      "passed": true,
+      "elapsedMs": 539.58,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 643,
+        "outputTokens": 41,
+        "elapsedMs": 430.6700000000001,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000027006
+      },
+      "timings": {
+        "modelMs": 430.6700000000001,
+        "toolMs": 65.41,
+        "totalMs": 497.65
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:08.771Z",
+          "type": "jev_decision",
+          "choice": "a2",
+          "confidence": 1,
+          "topProbability": 1,
+          "margin": 1,
+          "candidates": 2,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 430.66,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_step",
+          "tabId": 616274991,
+          "state": "returned",
+          "at": "2026-10-06T04:36:08.771Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:08.803Z"
+        }
+      ],
+      "receipts": [
+        {
+          "record": "aurora",
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274991,
+        "url": "http://127.0.0.1:34869/9",
+        "at": "2026-10-06T04:36:08.818Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "family": "shadow-form",
+      "passed": true,
+      "elapsedMs": 594.02,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 700,
+        "outputTokens": 33,
+        "elapsedMs": 411.5600000000004,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029400000000000003
+      },
+      "timings": {
+        "modelMs": 411.5600000000004,
+        "toolMs": 164.14,
+        "totalMs": 580.39
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:09.505Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.98,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 411.55,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274993,
+          "state": "returned",
+          "at": "2026-10-06T04:36:08.993Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:09.078Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274993,
+          "state": "returned",
+          "at": "2026-10-06T04:36:09.505Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:09.536Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Shadow profile",
+          "plan": "pro",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274993,
+        "url": "http://127.0.0.1:34869/10",
+        "at": "2026-10-06T04:36:09.551Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "family": "shadow-form",
+      "passed": true,
+      "elapsedMs": 592.44,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 700,
+        "outputTokens": 33,
+        "elapsedMs": 382.10000000000036,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000029400000000000003
+      },
+      "timings": {
+        "modelMs": 382.10000000000036,
+        "toolMs": 167.61999999999998,
+        "totalMs": 553
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:36:10.150Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.98,
+          "topProbability": 0.99,
+          "margin": 0.98,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 382.1,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 616274995,
+          "state": "returned",
+          "at": "2026-10-06T04:36:09.662Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:36:09.752Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 616274995,
+          "state": "returned",
+          "at": "2026-10-06T04:36:10.150Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:36:10.181Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Shadow profile",
+          "plan": "pro",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 616274995,
+        "url": "http://127.0.0.1:34869/11",
+        "at": "2026-10-06T04:36:10.196Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "family": "already-complete",
+      "passed": true,
+      "elapsedMs": 62.24,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 0,
+        "attempts": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "elapsedMs": 0,
+        "resolvedModels": [],
+        "estimatedInputCostUSD": 0
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 17.11,
+        "totalMs": 17.18
+      },
+      "decisions": [],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 616274997,
+        "url": "http://127.0.0.1:34869/12",
+        "at": "2026-10-06T04:36:10.335Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    }
+  ],
+  "browser": "153.0.8010.12",
+  "passed": 13,
+  "failed": 0,
+  "medianMs": 543.26,
+  "p95Ms": 931.55,
+  "modelCalls": 12,
+  "inputTokens": 8278,
+  "outputTokens": 412,
+  "estimatedJevInputCostUSD": 0.00034767600000000005,
+  "families": {
+    "native-form": {
+      "passed": 8,
+      "total": 8
+    },
+    "duplicate-row": {
+      "passed": 2,
+      "total": 2
+    },
+    "shadow-form": {
+      "passed": 2,
+      "total": 2
+    },
+    "already-complete": {
+      "passed": 1,
+      "total": 1
+    }
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "measuredAt": "2026-10-05T14:10:46.824Z",
+  "seed": 20261007,
+  "rounds": 100,
+  "activeTabs": false,
+  "foregroundSteps": true,
+  "type": "browser-contract evaluation with deterministic expert policies; no model benchmark",
+  "cases": [
+    {
+      "name": "form-0",
+      "passed": true,
+      "durationMs": 489
+    },
+    {
+      "name": "form-1",
+      "passed": true,
+      "durationMs": 409
+    },
+    {
+      "name": "form-2",
+      "passed": true,
+      "durationMs": 401
+    },
+    {
+      "name": "form-3",
+      "passed": true,
+      "durationMs": 422
+    },
+    {
+      "name": "form-4",
+      "passed": true,
+      "durationMs": 415
+    },
+    {
+      "name": "form-5",
+      "passed": true,
+      "durationMs": 413
+    },
+    {
+      "name": "form-6",
+      "passed": true,
+      "durationMs": 426
+    },
+    {
+      "name": "form-7",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-8",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-9",
+      "passed": true,
+      "durationMs": 467
+    },
+    {
+      "name": "form-10",
+      "passed": true,
+      "durationMs": 439
+    },
+    {
+      "name": "form-11",
+      "passed": true,
+      "durationMs": 630
+    },
+    {
+      "name": "form-12",
+      "passed": true,
+      "durationMs": 440
+    },
+    {
+      "name": "form-13",
+      "passed": true,
+      "durationMs": 426
+    },
+    {
+      "name": "form-14",
+      "passed": true,
+      "durationMs": 434
+    },
+    {
+      "name": "form-15",
+      "passed": true,
+      "durationMs": 441
+    },
+    {
+      "name": "form-16",
+      "passed": true,
+      "durationMs": 443
+    },
+    {
+      "name": "form-17",
+      "passed": true,
+      "durationMs": 431
+    },
+    {
+      "name": "form-18",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-19",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-20",
+      "passed": true,
+      "durationMs": 426
+    },
+    {
+      "name": "form-21",
+      "passed": true,
+      "durationMs": 452
+    },
+    {
+      "name": "form-22",
+      "passed": true,
+      "durationMs": 440
+    },
+    {
+      "name": "form-23",
+      "passed": true,
+      "durationMs": 631
+    },
+    {
+      "name": "form-24",
+      "passed": true,
+      "durationMs": 444
+    },
+    {
+      "name": "form-25",
+      "passed": true,
+      "durationMs": 427
+    },
+    {
+      "name": "form-26",
+      "passed": true,
+      "durationMs": 442
+    },
+    {
+      "name": "form-27",
+      "passed": true,
+      "durationMs": 470
+    },
+    {
+      "name": "form-28",
+      "passed": true,
+      "durationMs": 438
+    },
+    {
+      "name": "form-29",
+      "passed": true,
+      "durationMs": 432
+    },
+    {
+      "name": "form-30",
+      "passed": true,
+      "durationMs": 442
+    },
+    {
+      "name": "form-31",
+      "passed": true,
+      "durationMs": 428
+    },
+    {
+      "name": "form-32",
+      "passed": true,
+      "durationMs": 428
+    },
+    {
+      "name": "form-33",
+      "passed": true,
+      "durationMs": 450
+    },
+    {
+      "name": "form-34",
+      "passed": true,
+      "durationMs": 635
+    },
+    {
+      "name": "form-35",
+      "passed": true,
+      "durationMs": 432
+    },
+    {
+      "name": "form-36",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "form-37",
+      "passed": true,
+      "durationMs": 436
+    },
+    {
+      "name": "form-38",
+      "passed": true,
+      "durationMs": 434
+    },
+    {
+      "name": "form-39",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "form-40",
+      "passed": true,
+      "durationMs": 436
+    },
+    {
+      "name": "form-41",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-42",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "form-43",
+      "passed": true,
+      "durationMs": 443
+    },
+    {
+      "name": "form-44",
+      "passed": true,
+      "durationMs": 429
+    },
+    {
+      "name": "form-45",
+      "passed": true,
+      "durationMs": 441
+    },
+    {
+      "name": "form-46",
+      "passed": true,
+      "durationMs": 624
+    },
+    {
+      "name": "form-47",
+      "passed": true,
+      "durationMs": 435
+    },
+    {
+      "name": "form-48",
+      "passed": true,
+      "durationMs": 442
+    },
+    {
+      "name": "form-49",
+      "passed": true,
+      "durationMs": 440
+    },
+    {
+      "name": "form-50",
+      "passed": true,
+      "durationMs": 435
+    },
+    {
+      "name": "form-51",
+      "passed": true,
+      "durationMs": 440
+    },
+    {
+      "name": "form-52",
+      "passed": true,
+      "durationMs": 423
+    },
+    {
+      "name": "form-53",
+      "passed": true,
+      "durationMs": 417
+    },
+    {
+      "name": "form-54",
+      "passed": true,
+      "durationMs": 438
+    },
+    {
+      "name": "form-55",
+      "passed": true,
+      "durationMs": 430
+    },
+    {
+      "name": "form-56",
+      "passed": true,
+      "durationMs": 436
+    },
+    {
+      "name": "form-57",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "form-58",
+      "passed": true,
+      "durationMs": 633
+    },
+    {
+      "name": "form-59",
+      "passed": true,
+      "durationMs": 440
+    },
+    {
+      "name": "form-60",
+      "passed": true,
+      "durationMs": 466
+    },
+    {
+      "name": "form-61",
+      "passed": true,
+      "durationMs": 452
+    },
+    {
+      "name": "form-62",
+      "passed": true,
+      "durationMs": 447
+    },
+    {
+      "name": "form-63",
+      "passed": true,
+      "durationMs": 459
+    },
+    {
+      "name": "form-64",
+      "passed": true,
+      "durationMs": 438
+    },
+    {
+      "name": "form-65",
+      "passed": true,
+      "durationMs": 422
+    },
+    {
+      "name": "form-66",
+      "passed": true,
+      "durationMs": 443
+    },
+    {
+      "name": "form-67",
+      "passed": true,
+      "durationMs": 435
+    },
+    {
+      "name": "form-68",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-69",
+      "passed": true,
+      "durationMs": 444
+    },
+    {
+      "name": "form-70",
+      "passed": true,
+      "durationMs": 623
+    },
+    {
+      "name": "form-71",
+      "passed": true,
+      "durationMs": 437
+    },
+    {
+      "name": "form-72",
+      "passed": true,
+      "durationMs": 449
+    },
+    {
+      "name": "form-73",
+      "passed": true,
+      "durationMs": 429
+    },
+    {
+      "name": "form-74",
+      "passed": true,
+      "durationMs": 432
+    },
+    {
+      "name": "form-75",
+      "passed": true,
+      "durationMs": 449
+    },
+    {
+      "name": "form-76",
+      "passed": true,
+      "durationMs": 454
+    },
+    {
+      "name": "form-77",
+      "passed": true,
+      "durationMs": 434
+    },
+    {
+      "name": "form-78",
+      "passed": true,
+      "durationMs": 444
+    },
+    {
+      "name": "form-79",
+      "passed": true,
+      "durationMs": 422
+    },
+    {
+      "name": "form-80",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-81",
+      "passed": true,
+      "durationMs": 444
+    },
+    {
+      "name": "form-82",
+      "passed": true,
+      "durationMs": 438
+    },
+    {
+      "name": "form-83",
+      "passed": true,
+      "durationMs": 434
+    },
+    {
+      "name": "form-84",
+      "passed": true,
+      "durationMs": 451
+    },
+    {
+      "name": "form-85",
+      "passed": true,
+      "durationMs": 434
+    },
+    {
+      "name": "form-86",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-87",
+      "passed": true,
+      "durationMs": 446
+    },
+    {
+      "name": "form-88",
+      "passed": true,
+      "durationMs": 437
+    },
+    {
+      "name": "form-89",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-90",
+      "passed": true,
+      "durationMs": 451
+    },
+    {
+      "name": "form-91",
+      "passed": true,
+      "durationMs": 434
+    },
+    {
+      "name": "form-92",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-93",
+      "passed": true,
+      "durationMs": 650
+    },
+    {
+      "name": "form-94",
+      "passed": true,
+      "durationMs": 427
+    },
+    {
+      "name": "form-95",
+      "passed": true,
+      "durationMs": 428
+    },
+    {
+      "name": "form-96",
+      "passed": true,
+      "durationMs": 482
+    },
+    {
+      "name": "form-97",
+      "passed": true,
+      "durationMs": 429
+    },
+    {
+      "name": "form-98",
+      "passed": true,
+      "durationMs": 433
+    },
+    {
+      "name": "form-99",
+      "passed": true,
+      "durationMs": 522
+    },
+    {
+      "name": "structured-table-and-shadow-extraction",
+      "passed": true,
+      "durationMs": 119
+    },
+    {
+      "name": "six-tab-concurrent-observation",
+      "passed": true,
+      "durationMs": 523
+    },
+    {
+      "name": "popup-discovery-and-explicit-group-ownership",
+      "passed": true,
+      "durationMs": 252
+    }
+  ],
+  "modelCalls": 0,
+  "metrics": {
+    "operationTimings": {
+      "browser_open": {
+        "samples": 108,
+        "medianMs": 24.81,
+        "p95Ms": 35.13
+      },
+      "browser_wait": {
+        "samples": 109,
+        "medianMs": 17.4,
+        "p95Ms": 22.12
+      },
+      "browser_snapshot": {
+        "samples": 100,
+        "medianMs": 13.01,
+        "p95Ms": 15.55
+      },
+      "browser_fill_form": {
+        "samples": 100,
+        "medianMs": 75.04,
+        "p95Ms": 98
+      },
+      "browser_step.activationMs": {
+        "samples": 100,
+        "medianMs": 10.7,
+        "p95Ms": 14
+      },
+      "browser_step.actionMs": {
+        "samples": 100,
+        "medianMs": 19.9,
+        "p95Ms": 31
+      },
+      "browser_step.waitMs": {
+        "samples": 100,
+        "medianMs": 209.3,
+        "p95Ms": 411.1
+      },
+      "browser_step.observationMs": {
+        "samples": 100,
+        "medianMs": 6.3,
+        "p95Ms": 7.2
+      },
+      "browser_step": {
+        "samples": 100,
+        "medianMs": 255.64,
+        "p95Ms": 451.31
+      },
+      "browser_extract": {
+        "samples": 203,
+        "medianMs": 9.46,
+        "p95Ms": 10.79
+      },
+      "browser_tab": {
+        "samples": 109,
+        "medianMs": 24.57,
+        "p95Ms": 27.88
+      },
+      "browser_batch": {
+        "samples": 1,
+        "medianMs": 49.24,
+        "p95Ms": 49.24
+      },
+      "browser_groups": {
+        "samples": 1,
+        "medianMs": 4.57,
+        "p95Ms": 4.57
+      },
+      "browser_click": {
+        "samples": 1,
+        "medianMs": 70.99,
+        "p95Ms": 70.99
+      },
+      "browser_tabs": {
+        "samples": 2,
+        "medianMs": 20.97,
+        "p95Ms": 20.97
+      },
+      "browser_group_tabs": {
+        "samples": 1,
+        "medianMs": 9.78,
+        "p95Ms": 9.78
+      }
+    },
+    "coreToolDefinitions": {
+      "count": 23,
+      "bytes": 21955
+    },
+    "fullToolDefinitions": {
+      "count": 37,
+      "bytes": 30409
+    }
+  },
+  "browser": "153.0.8010.12",
+  "node": "v24.19.0",
+  "passed": 103,
+  "failed": 0
+}

@@ -1,0 +1,288 @@
+{
+  "mode": "planner",
+  "runLabel": "token-harbor-free",
+  "planner": {
+    "kind": "chat",
+    "baseUrl": "https://tokenharbor.ai/v1",
+    "model": "deepseek-v4.1-flash:free"
+  },
+  "reviewDate": "2026-10-06",
+  "measuredAt": "2026-10-06T04:40:47.827Z",
+  "cases": [
+    {
+      "index": 0,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 52218.14,
+      "status": "completed",
+      "summary": "Filled Name with \"Orion 0\", confirmed Plan = \"basic\" (Basic was already selected), set Updates checkbox to true, and clicked \"Save profile\". The page then displayed a confirmation message.",
+      "jev": {
+        "requests": 1,
+        "inputTokens": 702,
+        "outputTokens": 38
+      },
+      "plannerUsage": {
+        "inputTokens": 31401,
+        "outputTokens": 477
+      },
+      "timings": {
+        "modelMs": 51297,
+        "toolMs": 79
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:40:49.547Z",
+          "type": "jev",
+          "choice": "dom",
+          "confidence": 0.99,
+          "accepted": true,
+          "timing": {
+            "elapsedMs": 769.78,
+            "attempts": 1
+          },
+          "usage": {
+            "input_tokens": 702,
+            "output_tokens": 38
+          },
+          "model": "jev-1.13.0"
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 199286056,
+          "state": "returned",
+          "at": "2026-10-06T04:40:55.806Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:40:55.862Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 199286056,
+          "state": "returned",
+          "at": "2026-10-06T04:41:27.245Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:41:27.270Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 0",
+          "plan": "basic",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 199286056,
+        "url": "http://127.0.0.1:44803/0",
+        "at": "2026-10-06T04:41:40.939Z"
+      }
+    },
+    {
+      "index": 1,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 48812.39,
+      "status": "completed",
+      "summary": "Filled Name with \"Orion 1\", set the Plan select to value \"pro\", left Updates unchecked (already false so no change event was needed), and clicked Save profile. Final snapshot shows Name value \"Orion 1\", Plan value \"pro\", Updates checked=false, plus the confirmation text \"Profile saved successfully\" on the page (title: Fast engine fixture, url http://127.0.0.1:44803/1).",
+      "jev": {
+        "requests": 2,
+        "inputTokens": 1459,
+        "outputTokens": 76
+      },
+      "plannerUsage": {
+        "inputTokens": 43196,
+        "outputTokens": 788
+      },
+      "timings": {
+        "modelMs": 47390,
+        "toolMs": 124
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:41:41.705Z",
+          "type": "jev",
+          "choice": "dom",
+          "confidence": 0.96,
+          "accepted": true,
+          "timing": {
+            "elapsedMs": 629.19,
+            "attempts": 1
+          },
+          "usage": {
+            "input_tokens": 706,
+            "output_tokens": 38
+          },
+          "model": "jev-1.13.0"
+        },
+        {
+          "at": "2026-10-06T04:42:14.862Z",
+          "type": "jev",
+          "choice": "dom",
+          "confidence": 0.91,
+          "accepted": true,
+          "timing": {
+            "elapsedMs": 598.99,
+            "attempts": 1
+          },
+          "usage": {
+            "input_tokens": 753,
+            "output_tokens": 38
+          },
+          "model": "jev-1.13.0"
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 199286058,
+          "state": "returned",
+          "at": "2026-10-06T04:41:53.845Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:41:53.891Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 199286058,
+          "state": "returned",
+          "at": "2026-10-06T04:41:57.915Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:41:57.994Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 1",
+          "plan": "pro",
+          "check": false,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 199286058,
+        "url": "http://127.0.0.1:44803/1",
+        "at": "2026-10-06T04:42:29.853Z"
+      }
+    },
+    {
+      "index": 2,
+      "family": "native-form",
+      "passed": true,
+      "elapsedMs": 110618.67,
+      "status": "completed",
+      "summary": "Filled Name with \"Orion 2\", Plan was already set to value \"basic\" (option Basic selected, value basic), checked the Updates checkbox, then clicked Save profile. The page then displayed the confirmation \"Profile saved successfully\", verifying the save.",
+      "jev": {
+        "requests": 3,
+        "inputTokens": 2220,
+        "outputTokens": 114
+      },
+      "plannerUsage": {
+        "inputTokens": 55302,
+        "outputTokens": 905
+      },
+      "timings": {
+        "modelMs": 108633,
+        "toolMs": 128
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:42:30.492Z",
+          "type": "jev",
+          "choice": "dom",
+          "confidence": 0.99,
+          "accepted": true,
+          "timing": {
+            "elapsedMs": 515.51,
+            "attempts": 1
+          },
+          "usage": {
+            "input_tokens": 710,
+            "output_tokens": 38
+          },
+          "model": "jev-1.13.0"
+        },
+        {
+          "at": "2026-10-06T04:43:44.939Z",
+          "type": "jev",
+          "choice": "dom",
+          "confidence": 0.92,
+          "accepted": true,
+          "timing": {
+            "elapsedMs": 685.34,
+            "attempts": 1
+          },
+          "usage": {
+            "input_tokens": 761,
+            "output_tokens": 38
+          },
+          "model": "jev-1.13.0"
+        },
+        {
+          "at": "2026-10-06T04:44:14.867Z",
+          "type": "jev",
+          "choice": "dom",
+          "confidence": 0.89,
+          "accepted": true,
+          "timing": {
+            "elapsedMs": 553.06,
+            "attempts": 1
+          },
+          "usage": {
+            "input_tokens": 749,
+            "output_tokens": 38
+          },
+          "model": "jev-1.13.0"
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_fill_form",
+          "tabId": 199286060,
+          "state": "returned",
+          "at": "2026-10-06T04:42:39.410Z",
+          "outcome": "filled",
+          "finishedAt": "2026-10-06T04:42:39.457Z"
+        },
+        {
+          "name": "browser_step",
+          "tabId": 199286060,
+          "state": "returned",
+          "at": "2026-10-06T04:43:12.652Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:43:12.735Z"
+        }
+      ],
+      "receipts": [
+        {
+          "name": "Orion 2",
+          "plan": "basic",
+          "check": true,
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 199286060,
+        "url": "http://127.0.0.1:44803/2",
+        "at": "2026-10-06T04:44:20.561Z"
+      }
+    }
+  ],
+  "browser": "153.0.8010.12",
+  "passed": 3,
+  "failed": 0,
+  "medianMs": 52218.14,
+  "p95Ms": 110618.67,
+  "modelCalls": 6,
+  "inputTokens": 4381,
+  "outputTokens": 228,
+  "estimatedJevInputCostUSD": 0.000184002,
+  "plannerInputTokens": 129899,
+  "plannerOutputTokens": 2170,
+  "families": {
+    "native-form": {
+      "passed": 3,
+      "total": 3
+    }
+  }
+}

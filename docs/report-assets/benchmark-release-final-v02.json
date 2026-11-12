@@ -1,0 +1,65 @@
+{
+  "label": "release-final-v02",
+  "measuredAt": "2026-10-05T14:11:50.064Z",
+  "node": "v24.19.0",
+  "browser": "153.0.8010.12",
+  "samples": 10,
+  "fixture": "1000 sidebar links and two-field form",
+  "metrics": {
+    "persistentStatus": {
+      "samples": 10,
+      "medianMs": 3.5,
+      "p95Ms": 4.33,
+      "resultBytes": 131
+    },
+    "coldStatus": {
+      "samples": 10,
+      "medianMs": 219.74,
+      "p95Ms": 226.9,
+      "resultBytes": 131
+    },
+    "fullSnapshot": {
+      "samples": 10,
+      "medianMs": 25.3,
+      "p95Ms": 33.62,
+      "resultBytes": 33696
+    },
+    "actionAndSnapshot": {
+      "samples": 10,
+      "medianMs": 40.47,
+      "p95Ms": 50.67,
+      "resultBytes": 33724
+    },
+    "scopedSnapshot": {
+      "samples": 10,
+      "medianMs": 8.67,
+      "p95Ms": 12.61,
+      "resultBytes": 835
+    },
+    "actionAndScopedSnapshot": {
+      "samples": 10,
+      "medianMs": 21.44,
+      "p95Ms": 22.53,
+      "resultBytes": 835
+    },
+    "individualFormFields": {
+      "samples": 10,
+      "medianMs": 38.25,
+      "p95Ms": 39.72,
+      "resultBytes": 861
+    },
+    "compoundFormFields": {
+      "samples": 10,
+      "medianMs": 50.43,
+      "p95Ms": 52.88,
+      "resultBytes": 992
+    },
+    "compoundAction": {
+      "samples": 10,
+      "medianMs": 25.48,
+      "p95Ms": 28.03,
+      "resultBytes": 1025
+    }
+  },
+  "largePageFindsMainTask": true
+}

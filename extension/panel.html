@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>JEV Browser</title>
+    <link rel="stylesheet" href="panel.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <span class="mark"
+          ><svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M9 8h14v10a9 9 0 0 1-9 9H8v-5h6a4 4 0 0 0 4-4v-5H9z" fill="currentColor" />
+            <circle cx="21" cy="5" r="2" fill="currentColor" /></svg
+        ></span>
+        <div>
+          <strong>JEV <span>Browser</span></strong
+          ><small>Agent workspace</small>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button
+          id="theme-toggle"
+          class="icon-button"
+          aria-label="Switch appearance"
+          title="Switch appearance"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6" />
+            <path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor" />
+          </svg></button
+        ><button id="pause" class="icon-button" title="Pause browser access">Pause</button>
+      </div>
+    </header>
+    <div class="connection-line">
+      <span id="connection-dot" class="dot"></span
+      ><span id="connection-status">Connecting to bridge…</span><span class="version">LOCAL</span>
+    </div>
+    <nav class="workspace-nav" role="tablist" aria-label="Workspace">
+      <button
+        id="nav-chat"
+        data-view="chat"
+        role="tab"
+        aria-controls="view-chat"
+        aria-selected="true"
+        tabindex="0"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z" /></svg
+        ><span>Chat</span></button
+      ><button
+        id="nav-activity"
+        data-view="activity"
+        role="tab"
+        aria-controls="view-activity"
+        aria-selected="false"
+        tabindex="-1"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 13 4-7 5 12 4-9 5 4" /></svg
+        ><span>Activity</span></button
+      ><button
+        id="nav-memory"
+        data-view="memory"
+        role="tab"
+        aria-controls="view-memory"
+        aria-selected="false"
+        tabindex="-1"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 4h8v16H8z M5 8H3m2 8H3m18-8h-2m2 8h-2" /></svg
+        ><span>Memory</span></button
+      ><button
+        id="nav-settings"
+        data-view="settings"
+        role="tab"
+        aria-controls="view-settings"
+        aria-selected="false"
+        tabindex="-1"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16M8 4v6m8 4v6" /></svg
+        ><span>Settings</span>
+      </button>
+    </nav>
+    <div id="notice" role="status" aria-live="polite" hidden></div>
+    <main class="workspace">
+      <section
+        id="view-chat"
+        class="workspace-view"
+        data-panel-view="chat"
+        role="tabpanel"
+        aria-labelledby="nav-chat"
+      >
+        <section class="chat-view">
+          <div class="conversation-bar">
+            <label class="sr-only" for="conversation">Conversation</label
+            ><select id="conversation" aria-label="Conversation">
+              <option value="">New conversation</option></select
+            ><button
+              id="new-conversation"
+              class="icon-button"
+              title="New conversation"
+              aria-label="New conversation"
+            >
+              ＋
+            </button>
+          </div>
+          <div id="chat-empty" class="empty-state">
+            <div class="empty-mark" aria-hidden="true">✳</div>
+            <p class="eyebrow">YOUR BROWSER WORKSPACE</p>
+            <h1>What should we<br />get done?</h1>
+            <p class="empty-description">
+              Research, organize, and work across your tabs.<br />Keep the context. See every step.
+            </p>
+            <div class="starter-grid">
+              <button
+                class="starter"
+                data-prompt="Compare the options in my open tabs and prepare a concise recommendation."
+              >
+                <strong>Compare options</strong><span>Bring your research together</span></button
+              ><button
+                class="starter"
+                data-prompt="Review the current page and summarize its key information and next steps."
+              >
+                <strong>Understand a page</strong><span>Find what matters</span></button
+              ><button
+                class="starter"
+                data-prompt="Help me complete the form on the current page. Ask me for any missing information before submitting."
+              >
+                <strong>Work through a form</strong><span>Keep the details in order</span>
+              </button>
+            </div>
+          </div>
+          <div
+            id="transcript"
+            class="transcript"
+            aria-label="Conversation messages"
+            aria-live="polite"
+          ></div>
+          <div id="task-progress" class="task-progress" hidden>
+            <div class="progress-heading">
+              <span class="inline-dot"></span
+              ><strong id="progress-title" role="status" aria-live="polite"></strong
+              ><small id="progress-elapsed"></small>
+            </div>
+            <p id="progress-detail"></p>
+            <ol id="progress-steps" aria-label="Recent task steps"></ol>
+          </div>
+          <div id="task-inline" class="task-inline" hidden>
+            <span class="inline-dot"></span><span id="task-inline-status"></span
+            ><button id="show-activity" class="text-button">View activity</button>
+          </div>
+          <div class="composer">
+            <div class="context-row">
+              <span class="context-icon" aria-hidden="true">▣</span
+              ><label class="sr-only" for="target-tab">Work in tab</label
+              ><select id="target-tab">
+                <option value="">Choose a browser tab</option>
+              </select>
+            </div>
+            <label for="goal" class="sr-only">Describe your browser task</label
+            ><textarea id="goal" rows="4" placeholder="Ask JEV to work in your browser…"></textarea>
+            <div class="task-actions">
+              <span id="task-meta" class="hint">Ready when you are</span
+              ><button id="cancel" class="icon-button danger" hidden>Stop</button
+              ><button id="run" class="primary">Start <span aria-hidden="true">↗</span></button>
+            </div>
+          </div>
+          <p class="privacy-note">Page context goes to your selected model. You stay in control.</p>
+          <button id="setup-model" class="text-button" hidden>Connect a model to chat here</button>
+        </section>
+      </section>
+      <section
+        id="view-activity"
+        class="workspace-view"
+        data-panel-view="activity"
+        role="tabpanel"
+        aria-labelledby="nav-activity"
+        hidden
+      >
+        <div class="view-heading">
+          <p class="eyebrow">ACTIVITY</p>
+          <h1>Every step, visible.</h1>
+          <p>Follow what happened and what was verified.</p>
+        </div>
+        <div id="activity-empty" class="empty-card">
+          <strong>No task activity yet</strong>
+          <p>Your task timeline and evidence will appear here.</p>
+        </div>
+        <section id="task-output" class="card" hidden>
+          <div class="output-heading">
+            <strong id="task-status">Working</strong><span id="task-steps"></span>
+          </div>
+          <p id="task-summary"></p>
+          <blockquote id="task-evidence" hidden></blockquote>
+          <ol id="trace" class="trace" aria-label="Agent activity"></ol>
+          <button id="export-task" class="secondary full">Export task trace</button>
+        </section>
+        <details class="settings card">
+          <summary>Recent browser actions</summary>
+          <ol id="browser-audit" class="trace" aria-label="Recent browser actions"></ol>
+        </details>
+      </section>
+      <section
+        id="view-memory"
+        class="workspace-view"
+        data-panel-view="memory"
+        role="tabpanel"
+        aria-labelledby="nav-memory"
+        hidden
+      >
+        <div class="view-heading">
+          <p class="eyebrow">MEMORY</p>
+          <h1>Pick up where you left off.</h1>
+          <p>Conversation context and facts you chose to keep.</p>
+        </div>
+        <section class="card memory-card">
+          <h2>Memory &amp; saved facts</h2>
+          <p class="hint">
+            Conversation history is saved locally. Reusable facts are saved only through an explicit
+            Save action. Permissions are never stored as memory.
+          </p>
+          <p id="memory-summary" class="hint"></p>
+          <label for="fact-text">Fact to remember</label
+          ><textarea
+            id="fact-text"
+            rows="2"
+            maxlength="4000"
+            placeholder="A preference or fact you want to retain…"
+          ></textarea>
+          <div class="input-row">
+            <select id="fact-scope" aria-label="Memory scope">
+              <option value="reusable">Across conversations</option>
+              <option value="conversation">This conversation</option></select
+            ><button id="save-fact" class="secondary">Save fact</button>
+          </div>
+          <ul id="facts" class="grants" aria-label="Saved facts"></ul>
+          <div class="input-row">
+            <button id="export-conversation" class="secondary">Export conversation</button
+            ><button id="delete-conversation" class="danger">Delete conversation</button>
+          </div>
+        </section>
+      </section>
+      <section
+        id="view-settings"
+        class="workspace-view"
+        data-panel-view="settings"
+        role="tabpanel"
+        aria-labelledby="nav-settings"
+        hidden
+      >
+        <div class="view-heading">
+          <p class="eyebrow">SETTINGS</p>
+          <h1>Your setup.</h1>
+          <p>Choose a model and manage browser access.</p>
+        </div>
+        <details id="settings" class="settings card" open>
+          <summary>Connection & models <span>⚙</span></summary>
+          <form id="pair-form">
+            <div class="section-label">LOCAL BRIDGE</div>
+            <label for="bridge-url">Bridge URL</label
+            ><input id="bridge-url" type="url" value="http://127.0.0.1:19847" required />
+            <label for="pair-token">Pairing token</label
+            ><input
+              id="pair-token"
+              type="password"
+              autocomplete="off"
+              placeholder="From .local/config.json"
+              required
+            />
+            <button class="secondary full" type="submit">Connect extension</button>
+            <p id="extension-id" class="hint mono"></p>
+          </form>
+          <form id="model-form">
+            <div class="section-label">LLM PLANNER</div>
+            <label for="provider-kind">API protocol</label
+            ><select id="provider-kind">
+              <option value="responses">OpenAI Responses</option>
+              <option value="anthropic">Anthropic Messages</option>
+              <option value="chat">OpenAI-compatible Chat Completions</option>
+            </select>
+            <label for="provider-url">API base URL</label
+            ><input id="provider-url" type="url" value="https://api.openai.com/v1" required />
+            <label for="provider-model">Model ID</label
+            ><input id="provider-model" placeholder="Exact model ID from your provider" required />
+            <label for="tool-profile">Planner tool library</label
+            ><select id="tool-profile">
+              <option value="auto">Load specialized tools when needed</option>
+              <option value="full">Include all tools every turn</option>
+            </select>
+            <label for="provider-key">API key <span id="provider-key-status"></span></label
+            ><input
+              id="provider-key"
+              type="password"
+              autocomplete="off"
+              placeholder="Leave blank to keep existing key"
+            />
+            <label class="check"
+              ><input type="checkbox" id="agent-advanced" />Expose advanced tools to the
+              planner</label
+            >
+            <label class="check"
+              ><input type="checkbox" id="native-compaction" />Use provider-native Responses
+              compaction</label
+            >
+            <p class="hint">
+              Enable only for an endpoint/model that supports /responses/compact. Otherwise the
+              planner uses conversation summaries.
+            </p>
+
+            <div class="section-label jev-label">JEV DECISION LAYER</div>
+            <label class="check"><input type="checkbox" id="jev-enabled" />Use TypeSafe Jev</label>
+            <label for="jev-endpoint">Decision endpoint</label
+            ><input
+              id="jev-endpoint"
+              type="url"
+              value="https://api.typesafe.ai/v1/systemone"
+              required
+            />
+            <label for="jev-model">Jev model</label
+            ><input id="jev-model" value="jev-latest" required />
+            <label for="jev-key">TypeSafe API key <span id="jev-key-status"></span></label
+            ><input
+              id="jev-key"
+              type="password"
+              autocomplete="off"
+              placeholder="Leave blank to keep existing key"
+            />
+            <label for="jev-threshold">Confidence threshold</label
+            ><input
+              id="jev-threshold"
+              type="number"
+              min="0.5"
+              max="1"
+              step="0.05"
+              value="0.8"
+              required
+            />
+            <div class="section-label jev-label">TASK BUDGET</div>
+            <label for="agent-steps">Maximum steps</label
+            ><input id="agent-steps" type="number" min="1" max="2000" value="40" required />
+            <label for="agent-minutes">Maximum duration (minutes)</label
+            ><input id="agent-minutes" type="number" min="1" max="720" value="10" required />
+            <label for="agent-context">Conversation text budget (characters)</label
+            ><input
+              id="agent-context"
+              type="number"
+              min="10000"
+              max="2000000"
+              step="10000"
+              value="240000"
+              required
+            />
+            <p class="hint">
+              The task stops at its step or time limit. Conversation context is compacted as it
+              approaches the text budget. Saved facts remain available.
+            </p>
+            <button class="secondary full" type="submit">Save model settings</button>
+            <p class="hint">
+              Provider keys stay in the local bridge. MCP browser tools can use your host's model
+              without these keys.
+            </p>
+          </form>
+        </details>
+        <details id="access-settings" class="settings card" open>
+          <summary>Website access</summary>
+          <div class="section-label">BROWSER ACCESS</div>
+          <p class="hint">
+            All HTTP(S) websites are enabled by default, including signed-in pages. Access stays
+            enabled across browser restarts until you revoke it. Use Pause to stop browser control.
+          </p>
+          <label for="origin">Optional website override</label>
+          <div class="input-row">
+            <input
+              id="origin"
+              type="url"
+              placeholder="https://example.com"
+              spellcheck="false"
+            /><button id="current-origin" class="secondary" title="Use the active website">
+              Current
+            </button>
+          </div>
+          <div class="scope-controls">
+            <label for="mode">Access</label
+            ><select id="mode">
+              <option value="interact">Read & interact</option>
+              <option value="read">Read only</option>
+            </select>
+          </div>
+          <label class="check"
+            ><input type="checkbox" id="advanced" />Enable JavaScript & file uploads</label
+          >
+          <p class="hint">
+            Individual overrides last one hour. Read only can restrict a website; Revoke blocks it.
+            Interactions can submit forms and change website data.
+          </p>
+          <button id="grant" class="secondary full">Apply website override</button>
+          <button id="grant-all" class="secondary full">Apply all website access</button>
+          <p class="hint">
+            The advanced checkbox applies to either button. Leave it off for normal browsing.
+            Chrome's own Site access setting must allow all sites.
+          </p>
+          <ul id="grants" class="grants" aria-label="Granted websites"></ul>
+        </details>
+        <footer>Local connection · Built for your Chrome</footer>
+      </section>
+    </main>
+    <script type="module" src="panel.mjs"></script>
+  </body>
+</html>

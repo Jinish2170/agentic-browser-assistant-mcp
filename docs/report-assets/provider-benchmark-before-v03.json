@@ -1,0 +1,25 @@
+{
+  "label": "before-v03",
+  "measuredAt": "2026-10-05T14:25:16.025Z",
+  "node": "v24.19.0",
+  "modelCalls": 0,
+  "historyMessages": 201,
+  "textCharacters": 351900,
+  "metrics": {
+    "coreDefinitions": {
+      "samples": 100,
+      "medianMs": 0.308,
+      "p95Ms": 0.6976
+    },
+    "fullDefinitions": {
+      "samples": 100,
+      "medianMs": 0.2917,
+      "p95Ms": 0.7548
+    },
+    "contextSize": {
+      "samples": 100,
+      "medianMs": 1.037,
+      "p95Ms": 1.624
+    }
+  }
+}

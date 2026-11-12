@@ -1,0 +1,735 @@
+{
+  "reviewDate": "2026-10-06",
+  "measuredAt": "2026-10-06T04:34:26.180Z",
+  "cases": [
+    {
+      "index": 0,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 871.6,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 786.54,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 29.939999999999998,
+        "totalMs": 818.12
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:28.013Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.63,
+          "topProbability": 0.81,
+          "margin": 0.6200000000000001,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 786.53,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428511,
+        "url": "http://127.0.0.1:37615/0",
+        "at": "2026-10-06T04:34:28.013Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 509.14,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 418.47,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 38.41,
+        "totalMs": 457.31
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:28.650Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.59,
+          "topProbability": 0.8,
+          "margin": 0.6000000000000001,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 418.46,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428513,
+        "url": "http://127.0.0.1:37615/1",
+        "at": "2026-10-06T04:34:28.650Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 486.63,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 429.3399999999999,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 12.83,
+        "totalMs": 442.79
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:29.208Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.7,
+          "topProbability": 0.85,
+          "margin": 0.7,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 429.31,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428515,
+        "url": "http://127.0.0.1:37615/2",
+        "at": "2026-10-06T04:34:29.208Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 435.17,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 399.94000000000005,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 13.55,
+        "totalMs": 413.87
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:29.738Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.57,
+          "topProbability": 0.79,
+          "margin": 0.5800000000000001,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 399.93,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428517,
+        "url": "http://127.0.0.1:37615/3",
+        "at": "2026-10-06T04:34:29.738Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 439.4,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 375.96000000000004,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 14.28,
+        "totalMs": 390.65
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:30.224Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.71,
+          "topProbability": 0.85,
+          "margin": 0.7,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 375.95,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428519,
+        "url": "http://127.0.0.1:37615/4",
+        "at": "2026-10-06T04:34:30.224Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 379.33,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 345.9499999999998,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 14.52,
+        "totalMs": 360.96
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:30.704Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.5,
+          "topProbability": 0.75,
+          "margin": 0.5,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 345.94,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428521,
+        "url": "http://127.0.0.1:37615/5",
+        "at": "2026-10-06T04:34:30.704Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 433.91,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 404.96000000000004,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 14.56,
+        "totalMs": 419.89
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:31.211Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.64,
+          "topProbability": 0.82,
+          "margin": 0.6399999999999999,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 404.93,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428523,
+        "url": "http://127.0.0.1:37615/6",
+        "at": "2026-10-06T04:34:31.211Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "family": "native-form",
+      "passed": false,
+      "elapsedMs": 434.95,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 610,
+        "outputTokens": 33,
+        "elapsedMs": 387.17999999999984,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025620000000000002
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 14.11,
+        "totalMs": 401.64
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:31.696Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.45,
+          "topProbability": 0.72,
+          "margin": 0.43999999999999995,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 387.17,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428525,
+        "url": "http://127.0.0.1:37615/7",
+        "at": "2026-10-06T04:34:31.696Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "family": "duplicate-row",
+      "passed": true,
+      "elapsedMs": 1021.43,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 611,
+        "outputTokens": 41,
+        "elapsedMs": 924.19,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025662000000000003
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 51.25,
+        "totalMs": 977.29
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:32.734Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 1,
+          "topProbability": 1,
+          "margin": 1,
+          "candidates": 2,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 924.18,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_step",
+          "tabId": 1685428527,
+          "state": "returned",
+          "at": "2026-10-06T04:34:32.734Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:34:32.762Z"
+        }
+      ],
+      "receipts": [
+        {
+          "record": "aurora",
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 1685428527,
+        "url": "http://127.0.0.1:37615/8",
+        "at": "2026-10-06T04:34:32.774Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "family": "duplicate-row",
+      "passed": true,
+      "elapsedMs": 485.5,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 611,
+        "outputTokens": 41,
+        "elapsedMs": 415.9899999999998,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025662000000000003
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 47.03,
+        "totalMs": 464.37
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:33.326Z",
+          "type": "jev_decision",
+          "choice": "a2",
+          "confidence": 1,
+          "topProbability": 1,
+          "margin": 1,
+          "candidates": 2,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 415.99,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "browser_step",
+          "tabId": 1685428529,
+          "state": "returned",
+          "at": "2026-10-06T04:34:33.326Z",
+          "outcome": "observed",
+          "finishedAt": "2026-10-06T04:34:33.351Z"
+        }
+      ],
+      "receipts": [
+        {
+          "record": "aurora",
+          "trusted": true
+        }
+      ],
+      "verification": {
+        "tabId": 1685428529,
+        "url": "http://127.0.0.1:37615/9",
+        "at": "2026-10-06T04:34:33.361Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "family": "shadow-form",
+      "passed": false,
+      "elapsedMs": 435.73,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 611,
+        "outputTokens": 33,
+        "elapsedMs": 390.47000000000025,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025662000000000003
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 21.85,
+        "totalMs": 412.56
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:33.874Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.58,
+          "topProbability": 0.79,
+          "margin": 0.5800000000000001,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 390.46,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428531,
+        "url": "http://127.0.0.1:37615/10",
+        "at": "2026-10-06T04:34:33.874Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "family": "shadow-form",
+      "passed": false,
+      "elapsedMs": 491.59,
+      "outcome": "low_confidence",
+      "status": "blocked",
+      "summary": "Decision fell below the configured fast-path confidence/probability gate.",
+      "jev": {
+        "requests": 1,
+        "attempts": 1,
+        "inputTokens": 611,
+        "outputTokens": 33,
+        "elapsedMs": 411,
+        "resolvedModels": ["jev-1.13.0"],
+        "estimatedInputCostUSD": 0.000025662000000000003
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 17.13,
+        "totalMs": 428.42
+      },
+      "decisions": [
+        {
+          "at": "2026-10-06T04:34:34.409Z",
+          "type": "jev_decision",
+          "choice": "a1",
+          "confidence": 0.6,
+          "topProbability": 0.8,
+          "margin": 0.6000000000000001,
+          "candidates": 1,
+          "model": "jev-1.13.0",
+          "timing": {
+            "elapsedMs": 411,
+            "attempts": 1
+          }
+        }
+      ],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428533,
+        "url": "http://127.0.0.1:37615/11",
+        "at": "2026-10-06T04:34:34.409Z",
+        "passed": false,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": false
+          }
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "family": "already-complete",
+      "passed": true,
+      "elapsedMs": 62.41,
+      "outcome": "verified",
+      "status": "completed",
+      "summary": "All caller-supplied success predicates passed on a fresh browser observation.",
+      "jev": {
+        "requests": 0,
+        "attempts": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "elapsedMs": 0,
+        "resolvedModels": [],
+        "estimatedInputCostUSD": 0
+      },
+      "timings": {
+        "modelMs": 0,
+        "toolMs": 13.260000000000002,
+        "totalMs": 13.34
+      },
+      "decisions": [],
+      "actions": [],
+      "receipts": [],
+      "verification": {
+        "tabId": 1685428535,
+        "url": "http://127.0.0.1:37615/12",
+        "at": "2026-10-06T04:34:34.566Z",
+        "passed": true,
+        "predicates": [
+          {
+            "kind": "text",
+            "satisfied": true
+          }
+        ]
+      }
+    }
+  ],
+  "browser": "153.0.8010.12",
+  "passed": 3,
+  "failed": 10,
+  "medianMs": 439.4,
+  "p95Ms": 1021.43,
+  "modelCalls": 12,
+  "inputTokens": 7324,
+  "outputTokens": 412,
+  "estimatedJevInputCostUSD": 0.000307608,
+  "families": {
+    "native-form": {
+      "passed": 0,
+      "total": 8
+    },
+    "duplicate-row": {
+      "passed": 2,
+      "total": 2
+    },
+    "shadow-form": {
+      "passed": 0,
+      "total": 2
+    },
+    "already-complete": {
+      "passed": 1,
+      "total": 1
+    }
+  }
+}

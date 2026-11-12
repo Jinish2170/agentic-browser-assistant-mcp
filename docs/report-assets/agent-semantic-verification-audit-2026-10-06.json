@@ -1,0 +1,25 @@
+{
+  "auditedAt": "2026-10-06T06:23:35.684Z",
+  "version": "0.4.1",
+  "environment": "In-memory fake browser and fixture planner; no real browser or provider requests",
+  "goal": "Create project Orion in this workspace",
+  "observedPage": {
+    "url": "https://fixture.invalid/",
+    "title": "Portal",
+    "text": "Welcome to the workspace",
+    "elements": []
+  },
+  "plannerFinish": {
+    "summary": "Created project Orion",
+    "success": true,
+    "evidence": "Welcome"
+  },
+  "observedRunnerResult": {
+    "status": "completed",
+    "evidence": "Welcome",
+    "writeCommands": 0
+  },
+  "finding": "General finish validation requires a matching page excerpt, not independently verified goal completion.",
+  "scope": "Demonstrates verifier acceptance of an incorrect planner claim; not an estimate of real-world frequency.",
+  "productionCodeChanged": false
+}

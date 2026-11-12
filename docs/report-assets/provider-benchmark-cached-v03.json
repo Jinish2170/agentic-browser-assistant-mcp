@@ -1,0 +1,25 @@
+{
+  "label": "cached-v03",
+  "measuredAt": "2026-10-05T14:31:12.407Z",
+  "node": "v24.19.0",
+  "modelCalls": 0,
+  "historyMessages": 201,
+  "textCharacters": 353151,
+  "metrics": {
+    "coreDefinitions": {
+      "samples": 100,
+      "medianMs": 0.0035,
+      "p95Ms": 0.0057
+    },
+    "fullDefinitions": {
+      "samples": 100,
+      "medianMs": 0.0002,
+      "p95Ms": 0.0015
+    },
+    "contextSize": {
+      "samples": 100,
+      "medianMs": 0.6084,
+      "p95Ms": 0.936
+    }
+  }
+}

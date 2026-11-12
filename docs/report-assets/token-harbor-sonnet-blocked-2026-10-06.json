@@ -1,0 +1,16 @@
+{
+  "reviewDate": "2026-10-06",
+  "source": "Observed failed first planner workflow; harness originally raised on a failed task status before writing its report.",
+  "baseUrl": "https://tokenharbor.ai/v1",
+  "model": "claude-sonnet-5.5",
+  "authentication": "GET /v1/models HTTP 200; 64 callable model IDs returned",
+  "inference": "POST /v1/chat/completions HTTP 402",
+  "browserActions": 0,
+  "plannerReportedInputTokens": 0,
+  "plannerReportedOutputTokens": 0,
+  "jevObservationRequests": 1,
+  "jevInputTokens": 714,
+  "jevOutputTokens": 38,
+  "jevElapsedMs": 599.34,
+  "jevEstimatedInputCostUSD": 2.9988e-5
+}

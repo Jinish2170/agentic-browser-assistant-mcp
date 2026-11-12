@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-06",
+  "type": "offline read-only source contract audit",
+  "browserActions": 0,
+  "modelCalls": 0,
+  "sourceSha256": "0dd230cd76531e291948abfb691944d117ba79aa91bc3a1511b838bdf0aa95f1",
+  "findings": {
+    "inconsistentArgmaxAccepted": true,
+    "disabledCandidateOffered": true,
+    "disabledCandidateReturned": true,
+    "locateReceivesSurroundingPageText": false,
+    "note": "Fixtures use a fake request callback. Browser execution retains separate disabled/visibility/access guards; no actual action or provider request was made."
+  }
+}

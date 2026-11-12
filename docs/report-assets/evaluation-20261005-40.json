@@ -1,0 +1,278 @@
+{
+  "measuredAt": "2026-10-05T13:45:34.249Z",
+  "seed": 20261005,
+  "rounds": 40,
+  "type": "browser-contract evaluation with deterministic expert policies; no model benchmark",
+  "cases": [
+    {
+      "name": "form-0",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 96
+    },
+    {
+      "name": "form-1",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 75
+    },
+    {
+      "name": "form-2",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 63
+    },
+    {
+      "name": "form-3",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-4",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-5",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 64
+    },
+    {
+      "name": "form-6",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-7",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 60
+    },
+    {
+      "name": "form-8",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 65
+    },
+    {
+      "name": "form-9",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 63
+    },
+    {
+      "name": "form-10",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-11",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-12",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-13",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-14",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-15",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 72
+    },
+    {
+      "name": "form-16",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 63
+    },
+    {
+      "name": "form-17",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 83
+    },
+    {
+      "name": "form-18",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-19",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 72
+    },
+    {
+      "name": "form-20",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-21",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 62
+    },
+    {
+      "name": "form-22",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-23",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 72
+    },
+    {
+      "name": "form-24",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-25",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 65
+    },
+    {
+      "name": "form-26",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 64
+    },
+    {
+      "name": "form-27",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 65
+    },
+    {
+      "name": "form-28",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 69
+    },
+    {
+      "name": "form-29",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 71
+    },
+    {
+      "name": "form-30",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 69
+    },
+    {
+      "name": "form-31",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 71
+    },
+    {
+      "name": "form-32",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 69
+    },
+    {
+      "name": "form-33",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 66
+    },
+    {
+      "name": "form-34",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 65
+    },
+    {
+      "name": "form-35",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-36",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-37",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-38",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 67
+    },
+    {
+      "name": "form-39",
+      "passed": false,
+      "error": "Plan",
+      "durationMs": 72
+    },
+    {
+      "name": "structured-table-and-shadow-extraction",
+      "passed": true,
+      "durationMs": 95
+    },
+    {
+      "name": "six-tab-concurrent-observation",
+      "passed": true,
+      "durationMs": 385
+    },
+    {
+      "name": "popup-discovery-and-explicit-group-ownership",
+      "passed": true,
+      "durationMs": 179
+    }
+  ],
+  "modelCalls": 0,
+  "metrics": {
+    "coreToolDefinitions": {
+      "count": 23,
+      "bytes": 21783
+    },
+    "fullToolDefinitions": {
+      "count": 37,
+      "bytes": 30237
+    }
+  },
+  "browser": "153.0.8010.12",
+  "node": "v24.19.0",
+  "passed": 3,
+  "failed": 40
+}

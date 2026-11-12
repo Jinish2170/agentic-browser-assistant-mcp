@@ -1,0 +1,539 @@
+{
+  "label": "grounded-v04-dev",
+  "reviewDate": "2026-10-06",
+  "measuredAt": "2026-10-06T04:26:57.226Z",
+  "modelCalls": 16,
+  "inputTokens": 8400,
+  "outputTokens": 648,
+  "cases": [
+    {
+      "family": "exact",
+      "index": 0,
+      "elapsedMs": 13.06,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 1,
+      "elapsedMs": 633.95,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.98,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "c1": 0.99,
+        "none": 0.01,
+        "c2": 0
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 2,
+      "elapsedMs": 374.29,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.99,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "c1": 0,
+        "c2": 0.01,
+        "none": 0.99
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "disabled",
+      "index": 3,
+      "elapsedMs": 11.99,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": false,
+      "selected": false,
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "shadow",
+      "index": 4,
+      "elapsedMs": 11.03,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 5,
+      "elapsedMs": 12.37,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 6,
+      "elapsedMs": 501.45,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.99,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "c1": 0,
+        "none": 0.01,
+        "c2": 0.99
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 7,
+      "elapsedMs": 359.42,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 1,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "c2": 0,
+        "c1": 0,
+        "none": 1
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "disabled",
+      "index": 8,
+      "elapsedMs": 12.79,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": false,
+      "selected": false,
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "shadow",
+      "index": 9,
+      "elapsedMs": 10.41,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 10,
+      "elapsedMs": 12.09,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 11,
+      "elapsedMs": 450.13,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.98,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "none": 0.01,
+        "c2": 0,
+        "c1": 0.99
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 12,
+      "elapsedMs": 416.39,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.99,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "c2": 0.01,
+        "c1": 0,
+        "none": 0.99
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "disabled",
+      "index": 13,
+      "elapsedMs": 22.83,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": false,
+      "selected": false,
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "shadow",
+      "index": 14,
+      "elapsedMs": 18.88,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 15,
+      "elapsedMs": 15.62,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 16,
+      "elapsedMs": 672.47,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.98,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "c2": 0.99,
+        "none": 0.01,
+        "c1": 0
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 17,
+      "elapsedMs": 397.42,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 1,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "none": 1,
+        "c2": 0,
+        "c1": 0
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "disabled",
+      "index": 18,
+      "elapsedMs": 15.37,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": false,
+      "selected": false,
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "shadow",
+      "index": 19,
+      "elapsedMs": 16.1,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 20,
+      "elapsedMs": 10.47,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 21,
+      "elapsedMs": 373.36,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.98,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "c2": 0,
+        "c1": 0.99,
+        "none": 0.01
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 22,
+      "elapsedMs": 390.51,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.99,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "c1": 0,
+        "c2": 0.01,
+        "none": 0.99
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 23,
+      "elapsedMs": 13.63,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 24,
+      "elapsedMs": 369.51,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.99,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "none": 0.01,
+        "c2": 0.99,
+        "c1": 0
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 25,
+      "elapsedMs": 408.33,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 1,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "none": 1,
+        "c2": 0,
+        "c1": 0
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 26,
+      "elapsedMs": 11.35,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 27,
+      "elapsedMs": 391.22,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.98,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "c2": 0,
+        "c1": 0.99,
+        "none": 0.01
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 28,
+      "elapsedMs": 386.7,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.98,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "none": 0.99,
+        "c2": 0.01,
+        "c1": 0
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "exact",
+      "index": 29,
+      "elapsedMs": 10.63,
+      "source": "deterministic-exact-label",
+      "modelCalls": 0,
+      "accepted": true,
+      "selected": true,
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "duplicate-row",
+      "index": 30,
+      "elapsedMs": 410.38,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 0.99,
+      "accepted": true,
+      "selected": true,
+      "probabilities": {
+        "c2": 0.99,
+        "c1": 0,
+        "none": 0.01
+      },
+      "receipts": ["target"],
+      "passed": true,
+      "abstained": false
+    },
+    {
+      "family": "no-match",
+      "index": 31,
+      "elapsedMs": 385.38,
+      "model": "jev-1.13.0",
+      "source": "jev",
+      "modelCalls": 1,
+      "confidence": 1,
+      "accepted": true,
+      "selected": false,
+      "probabilities": {
+        "none": 1,
+        "c2": 0,
+        "c1": 0
+      },
+      "receipts": [],
+      "passed": true,
+      "abstained": false
+    }
+  ],
+  "browser": "153.0.8010.12",
+  "passed": 32,
+  "failed": 0,
+  "medianMs": 359.42,
+  "p95Ms": 633.95,
+  "estimatedJevInputCostUSD": 0.0003528,
+  "families": {
+    "exact": {
+      "passed": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    "duplicate-row": {
+      "passed": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    "no-match": {
+      "passed": 8,
+      "total": 8,
+      "abstained": 0
+    },
+    "disabled": {
+      "passed": 4,
+      "total": 4,
+      "abstained": 0
+    },
+    "shadow": {
+      "passed": 4,
+      "total": 4,
+      "abstained": 0
+    }
+  }
+}
